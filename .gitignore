@@ -64,3 +64,5 @@ lib
 # misc
 .DS_Store
 .parcel-cache
+
+README.md

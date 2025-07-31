@@ -14,7 +14,7 @@
     "postbuild": "npm run generateSW",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "serve": "serve dist",  
+    "serve": "serve dist"
   },
   "keywords": [
     "meme generator"

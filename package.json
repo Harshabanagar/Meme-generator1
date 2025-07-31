@@ -4,18 +4,19 @@
   "description": "A Progressive Web App (PWA) for creating memes.",
   "source": "src/index.html",
   "scripts": {
-    "lint": "eslint src/js/**",
-    "format": "prettier --ignore-unknown --write .",
-    "clean": "rm -rf dist .parcel-cache",
-    "generateSW": "workbox generateSW",
-    "start": "parcel",
-    "build:parcel": "parcel build --dist-dir=dist --public-url=./",
-    "build": "npm run clean && npm run build:parcel",
-    "postbuild": "npm run generateSW",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "serve": "serve dist"
-  },
+  "lint": "eslint src/js/**",
+  "format": "prettier --ignore-unknown --write .",
+  "clean": "rm -rf dist .parcel-cache",
+  "generateSW": "workbox generateSW",
+  "start": "parcel",
+  "build:parcel": "parcel build --dist-dir=dist --public-url=./",
+  "build": "npm run clean && npm run build:parcel",
+  "postbuild": "npm run generateSW",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "serve": "serve dist"
+},
+
   "keywords": [
     "meme generator"
   ],
